@@ -9,7 +9,32 @@
         "php": ">=7.4",
         "ext-json": "*",
 
- 
 		"sumanayap/test": "dev-develop"
-		}
+		},
+		 "require-dev": {
+        "roave/security-advisories": "@dev"
+    },
+    "autoload": {
+        "exclude-from-classmap": [
+            "**/composer-assets-compiler/**",
+            "**/vip-composer-plugin/**",
+            "**/wp-translation-downloader/**"
+        ]
+    },
+    "extra": {
+        "vip-composer": {
+            "wordpress": {
+                "version": "5.*",
+                "local-dir": "public"
+            },
+            "plugins-autoload": {
+                "include": [
+                    "automattic/vip-go-geo-uniques",
+                    "inpsyde/mhh-safe-svg",
+                    "wpackagist-plugin/enable-media-replace",
+                    "wpackagist-plugin/redirection",
+                    "wpackagist-plugin/wordpress-seo"
+                ]
+            },
+}
 }
