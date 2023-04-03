@@ -1,0 +1,15 @@
+{
+    "name": "sumanayap/TestWebsiteRepo",
+    "description": "test repo to website repo.",
+    "license": "proprietary",
+    "type": "project",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*",
+
+ 
+		"sumanayap/test": "dev-develop"
+		}
+}
