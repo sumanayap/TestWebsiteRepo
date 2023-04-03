@@ -10,8 +10,8 @@
         "ext-json": "*",
 
 		"sumanayap/test": "dev-develop"
-		},
-		 "require-dev": {
+	},
+	"require-dev": {
         "roave/security-advisories": "@dev"
     },
     "autoload": {
@@ -35,7 +35,7 @@
                     "wpackagist-plugin/redirection",
                     "wpackagist-plugin/wordpress-seo"
                 ]
-            },
+            }
 }
 }
 }
